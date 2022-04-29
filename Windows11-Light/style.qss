@@ -1,0 +1,66 @@
+ #launchy {
+	border: 1px solid #7E868B;
+	border-radius: 7px;
+	background-color: #ecf3fb;
+	qproperty-geometry: rect(0 0 700 110);
+	/*background-image: url(bg.png);*/
+}
+
+#input {
+	font:  16px Segoe UI, Sans, Tahoma, Arial;
+	border-width: 0px;
+	background-color: #FFFFFF ;
+	border: 1px solid #7E868B;
+	border-radius: 2px;
+	color: black;
+	qproperty-alignment: AlignLeft;
+	qproperty-geometry: rect(46 30 580 30);
+}
+
+#output {
+	font:  12px Segoe UI, Sans, Tahoma, Arial;
+	color: #2b2b2b;
+	qproperty-alignment: AlignLeft;
+	qproperty-geometry: rect(48 69 580 24);
+}
+
+#outputIcon {
+	qproperty-geometry: rect(640 30 32 32);
+}
+
+#alternatives {
+	font:  12px Segoe UI, Sans, Tahoma, Arial;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	alternate-background-color:#FFFFFF;
+	selection-background-color: #0078D4;
+	color: #3a3a3a;
+	selection-color: #FFFFFF;
+	border-style: solid;
+	border-color: #AAAAAA;
+	border-width: 0px;
+	padding: 0px 0px 0px 0px;
+	qproperty-geometry: rect(46 60 580 200);
+}
+
+#alternatives::item {
+	padding: 2px 0px;
+}
+
+#alternativesPath {
+	font: 11px Segoe UI, Arial, Verdana;
+	color: #666666;
+	selection-color: #666666;
+
+}
+
+QScrollBar#altScroll:vertical {
+	width: 2px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFF;
+}
+
+QScrollBar#altScroll::handle:vertical {
+	background-color: #959595;
+}
+
